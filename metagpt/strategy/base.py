@@ -6,7 +6,7 @@ from abc import ABC
 from typing import List
 
 from anytree import Node, RenderTree
-from pydantic import BaseModel
+from pydantic import BaseModel 
 
 
 class BaseParser(BaseModel, ABC):
